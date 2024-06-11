@@ -17,6 +17,6 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("clock").innerHTML = "became true";
     document.getElementById("image").style="display:block;";
-    document.getElementById("clocksound").style="visibility: hidden;";
+    document.getElementById("clocksound").style="display: none;";
   }
 }, 1000);

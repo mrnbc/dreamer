@@ -17,5 +17,5 @@ body{
   text-align: center;
 }
 #audio{
-  visibility: visible;
+  display: block;
 }
