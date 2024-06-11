@@ -1,3 +1,8 @@
+function execSom() {
+  var playAudio = document.getElementById("clocksound");
+  playAudio.play();
+}
+
 var countDownDate = new Date("Jun 12, 2024 00:00:00").getTime();
 
 var x = setInterval(function() {
@@ -17,6 +22,6 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("clock").innerHTML = "became true";
     document.getElementById("image").style="display:block;";
-    document.getElementById("clocksound").style="display: none;";
+    document.getElementById("clocksound").pause();
   }
 }, 1000);
