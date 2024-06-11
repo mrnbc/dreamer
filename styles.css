@@ -16,3 +16,6 @@ body{
 #image{
   text-align: center;
 }
+#audio{
+  display: block;
+}
