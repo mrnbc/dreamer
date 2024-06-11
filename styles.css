@@ -1,0 +1,18 @@
+body{
+  background-color: black;
+}
+
+.text {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 80px;
+    font-family: "Indie Flower", cursive;
+    color: red;
+  }
+.image{
+  width: 150px;
+  height:150px;
+}
+#image{
+  text-align: center;
+}
