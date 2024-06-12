@@ -7,11 +7,11 @@ body{
     font-size: 60px;
     margin-top: 80px;
     font-family: "Indie Flower", cursive;
-    color: red;
+    color: hsl(0, 100%, 50%);
   }
 .image{
-  width: 150px;
-  height:150px;
+  width: 200px;
+  height:200px;
 }
 #image{
   text-align: center;
